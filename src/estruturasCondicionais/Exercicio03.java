@@ -19,9 +19,7 @@ public class Exercicio03 {
         System.out.println("digite um segundo numero");
         int numberTwo = sc.nextInt();
 
-        /*
-        number % 2 == 0 && number % 2 == 0
-        */
+
         if( numberOne % 2 == 0 && numberTwo % 2 == 0){
             System.out.printf("O %d e o %d SÃO MULTIPLOS",numberOne, numberTwo );
         } else {
