@@ -16,7 +16,7 @@ public class Exercise01 {
         int password = ler.nextInt();
 
 
-        while (password != 2022) {
+        while (password != 2002) {
             System.out.println("Acesso Negado");
             password = ler.nextInt();
         }
